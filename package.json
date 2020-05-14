@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://littlejtawsome.github.io/jquerymobile",
+  "homepage": "https://littlejtawsome.github.io/jmobile2",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gh-pages -d root"
