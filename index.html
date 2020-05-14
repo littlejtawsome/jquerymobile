@@ -1,0 +1,245 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery Mobile: Theme Download</title>
+    
+	<link rel="stylesheet" href="themes/julie.min.css" />
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <style>
+        img{
+            width: 100%;
+            height: auto;
+            /* opacity:0.2; */
+        }
+        img:hover {
+            opacity: 0.9;
+        }
+        #my-dialog-page img {
+            width: 15%;
+            height: auto;
+            opacity: 1;
+            float:left;
+            margin-right:10px;
+
+        }
+        float:after {
+            clear:both;
+        }
+        #two img{
+            width: 98%;
+            height: auto;
+            padding-top:2px;
+            padding-left:2px;
+            padding-right: 2px;
+        }
+   
+    </style>
+</head>
+<body>
+	<div data-role="page" data-theme="d" id="one">
+		<div data-role="header" data-position="fixed">
+			 
+             <h1> Korean cookbook from mom(Mom's table)</h1>
+                <a href="#three" class="ui-btn ui-icon-arrow-l  ui-btn-icon-left">Back</a>
+				<a href="#two" class="ui-btn ui-icon-arrow-r ui-btn-icon-right">Next</a> 
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#my-dialog-page" data-dialog="true" data-transition="pop" data-icon="info"  >About Us</a></li>
+						<li><a href="#two" data-icon="search">Food Lists</a></li>
+						<li><a href="#three" data-icon="comment">Contact</a></li>   
+					</ul>
+				</div><!-- /navbar -->
+			</div><!-- /header -->
+		<!-- =========================================================== -->
+		
+			<div data-role="content" id="linkdialog">
+				<h1>Welcome to Mama Julie's Kitchen.</h1>
+					
+					<p>This is a regular page, styled as a dialog. To create a dialog, just link to a normal page and include a transition and <code>data-rel="dialog"</code> attribute.</p> -->
+					<a href="#my-dialog-page" data-role="pop-up" data-rel="dialog" >philosophy</a> 
+                    <img src="./kfood/bibimbob.jpeg" alt="">  
+			</div>
+             
+		
+			  
+		   
+		 
+		
+			
+		   
+		
+<div data-role="collapsibleset">
+	<div data-role="collapsible">
+	<h3>Testimonial</h3><p>
+       <p><em> AUTUMN | IT'S AUTUMN'S LIFE SAYS</em>
+        APRIL 18, 2015 AT 11:49 AM<br>
+        Yum! This looks so good and I love jorim jang. 😀 I’ve never eaten this in Korea which is a shame because it looks so delicious. Now I can make it at home!</p>
+
+      <p> <em> MARIA LOURDES SAYS</em><br>
+        MARCH 5, 2014 AT 2:19 AM<br>
+        Thank you for this recipe. I keep making them because both my son and I love them so much. Tomorrow I am making your beef with korean radish soup.</p>
+
+ANONYMOUS SAYS<br>
+FEBRUARY 3, 2014 AT 10:24 AM<br>
+Can i replace corn syrup for honey
+
+REPLY
+        
+        REPLY</p>
+	</div>
+	<div data-role="collapsible">
+	<h3>Food Lists</h3><p>We are updating our entire Korean food menu. We will be upload A.S.A.P.</p>
+	</div>
+	<div data-role="collapsible">
+	<h3>Contact</h3><p>We value your feedback & suggestions as it is extremely important to us. We are constantly looking for ways to enhance our Web site and the experience of our visitors so we encourage you to let us know what you like and don't like about the site as well as ways for us to improve your experience. Therefore, feel free submit all feedbacks and suggestions to koreancookboocom.</p>
+	</div>
+	</div> 
+	<div data-role="footer" data-position="fixed">
+		<h4>&copy Copyright 2020 by J Julie Shin</h4>
+	   
+</div><!-- /footer -->
+</div><!-- / 1st page -->
+		 
+	   <!--===============================================================================  -->
+	   <!-- Start of second page -->
+<div data-role="page" data-theme="d" id="two">
+ 
+    <div data-role="header" data-position="fixed" >
+        <a href="#one" class="ui-btn ui-icon-arrow-l ui-btn-icon-left">Back</a>
+        <h1> Food Lists</h1>
+            <a href="#three" class="ui-btn ui-icon-arrow-r ui-btn-icon-right">Next</a> 
+    </div><!-- /header -->
+ <div data-role="navbar">
+        <ul>
+            <li><a href="#one" data-icon="info" ui-btn-icon="left">About Us</a></li>
+            <li><a href="#two" data-icon="search">Food Lists</a></li>
+            <li><a href="#three" data-icon="comment">Contact</a></li>   
+        </ul>
+    </div> <!--/navbar -->
+    
+ 
+    <div data-role="content">    
+       <div data-role="collapsible">
+        <h3>Food Delivery Service Ordering Guide</h3>
+        <p>In addition to providing information on food recipes,
+            We offer only 6 menus a week. Six menu choices are available for delivery this week.
+            If you choose the item you want from the menu below and order it, it will be delivered on the desired date.</p>
+       </div>
+      
+       <div class="ui-grid-d">
+        <div class="ui-block-a" ><img src="kfood/soybeanstew-.jpeg"> </div>
+        <div class="ui-block-b"><img src="kfood/healthdosirak-.jpeg" alt= ""></div>
+        <div class="ui-block-c"><img src="kfood/dosirak-.jpeg" alt= "lunchBox"></div>
+        <div class="ui-block-d"><img src="kfood/samguksal-.jpeg" alt= ""></div>
+        <div class="ui-block-e"><img src="kfood/seafoodpancake-.jpeg" alt= ""></div>
+        <div class="ui-block-a"><img src="kfood/soontobu.jpeg" alt= ""></div>
+        <div class="ui-block-b"><img src="kfood/sujebi2.jpeg" alt= ""></div>
+        <div class="ui-block-c"><img src="kfood/kimchifried.jpeg" alt= ""></div>
+        <div class="ui-block-d"><img src="kfood/kimbob.jpg" alt= ""></div>
+        <div class="ui-block-e"><img src="kfood/gyeranjjim.jpeg" alt= ""></div>
+        <div class="ui-block-a"><img src="kfood/bibimbob.jpeg" alt= ""></div>
+        <div class="ui-block-b"><img src="kfood/gyeranmali.jpeg" alt= ""></div>
+        <div class="ui-block-c"><img src="kfood/bibimkuksu.jpeg" alt= ""></div>
+        <div class="ui-block-d"><img src="kfood/seoulungtang.jpeg" alt= ""></div>
+        <div class="ui-block-e"><img src="kfood/dutchovenpancake.jpeg" alt= ""></div>
+    </div>
+    <section>
+        <div id="page">
+        <ul data-role="listview">
+            <li><a href="#">Rice(Bob)</a></li>
+            <li><a href="#">Soup or Stew(Tang or Jjigae)</a></li>
+            <li><a href="#">Main Dish(Meat, Fish Or Egg)</a></li>
+            <li><a href="#">Side Dish(BanChan)</a></li>
+            <li><a href="#">Side Dish(Dessert)</a></li>
+            <li><a href="#">Etc</a></li>
+        </ul>
+       </div>
+    </section>
+
+    </div><!-- /content -->
+ 
+
+    <div data-role="footer" data-position="fixed" >
+        <h4>&copyCopyright 2020 by J Julie Shin</h4>
+       
+    </div><!-- /footer -->
+</div><!-- /2nd page -->
+
+<!-- Start of third page======================================================== -->
+<div data-role="page" id="three" data-theme= "d">
+ 
+    <div data-role="header" data-position="fixed" >
+        <a href="#two" class="ui-btn ui-icon-arrow-l ui-btn-icon-left">Back</a>
+        <h1> Korean cookbook from mom
+            (Mom's table)</h1>
+            <a href="#one" class="ui-btn ui-icon-arrow-r ui-btn-icon-right">Next</a> 
+    
+    <div data-role="navbar">
+        <ul>
+            <li><a href="#one" data-icon="info">About Us</a></li>
+            <li><a href="#two" data-icon="search">Food Lists</a></li>
+            <li><a href="#three" data-icon="comment">Contact</a></li>   
+        </ul>
+	</div> <!-- navbar -->
+    </div><!-- /header -->
+ 
+
+      <div data-role="content">    
+        <div data-role="collapsible">
+         <h3>We'd love to hear from you! Contact to us !</h3>
+         <p>We value your feedback & suggestions as it is extremely important to us. We are constantly looking for ways to enhance our Web site and the experience of our visitors so we encourage you to let us know what you like and don't like about the site as well as ways for us to improve your experience. Therefore, feel free submit all feedbacks and suggestions to koreancookboocom.</p>
+         </div>
+      <form>
+             <label for="text-3">Name</label>
+             <input type="text" data-clear-btn="true" name="text-3"       id="text-3"value="">
+             <label for="date-2">Birthdate</label>
+             <input type="date" data-clear-btn="true" name="date-2" id="date-2"   value=""> 
+             <label for="tel-2">Tel: data-clear-btn="true"</label>
+             <input type="tel" data-clear-btn="true" name="tel-2" id="tel-2" value="">
+               <label for="email-2">Email: data-clear-btn="true"</label>
+               <input type="email" data-clear-btn="true" name="email-2" id="email-2" value="">
+              <label for="textarea-4">Textarea:</label>
+               <textarea data-mini="true" cols="40" rows="8" name="textarea-4" id="textarea-4"></textarea>
+            <a href="#" class="ui-btn ui-btn-inline">Anchor</a>
+<button class="ui-btn ui-btn-inline">Button</button>
+
+            
+     </form>
+    </div><!-- /content -->
+ 
+	<div data-role="footer" data-position="fixed">
+		<h4>&copyCopyright 2020 by J.Julie Shin</h4>
+	   
+</div><!-- /footer -->
+</div><!-- /3rd page -->
+<!-- ======================================================================= -->
+
+<div data-role="page" id="my-dialog-page" data-theme= "d">
+ 
+    <div data-role="header" data-position="fixed" >
+        <a href="#two" class="ui-btn ui-icon-arrow-l ui-btn-icon-left">Back</a>
+        <h1>About Mama Julie</h1>
+            <a href="#one" class="ui-btn ui-icon-arrow-r ui-btn-icon-right">Next</a> 
+    </div><!--header-->
+    <div data-role="content" class="">    
+        <h1>philosophy</h1>
+<img src="kfood/mama.png" alt="mama julie" >
+<P>My name is Julie, and I have three children. they will soon become independent of me and live a precious life. Sometimes very tired and sometimes they'll be really lonely.  I wanted to make food as comforting as long as my daughters could get along because a large part of what has sustained me for 18 years in the U.S. was my comfort foods. (which is  the food what my mother usually made it   for  me ). Korean food can also be maintained in health, body, and spirit. Not only it isn't heavy calories and rich in nutrients, but it is also rich in fermented foods, which boosts immunity and helps you have a comfortable body and mind.
+A Korean table that is easy to make and easy to make in the United States. In college dorms, I wanted to give my daughters a recipe book that they can easily make even when they live alone in the future. 
+I want to provide an easy recipe for not only my kids but also all my sons and daughters who live their life all over the world in bravely themselves.</P>
+      </div><!-- /content -->
+    
+  
+ 
+	<div data-role="footer" data-position="fixed">
+		<h4>&copyCopyright 2020 by J.Julie Shin</h4>
+	   
+</div><!-- /footer -->
+</div><!-- dialog page. -->
+</body>
+</html>
